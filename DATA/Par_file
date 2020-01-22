@@ -57,7 +57,7 @@ NSTEP_BETWEEN_OUTPUT_SEISMOS    = 5000000
 subsamp_seismos                 = 1              
 
 save_ASCII_seismograms          = .false.        
-save_binary_seismograms_single  = .true.         
+save_binary_seismograms_single  = .false.         
 save_binary_seismograms_double  = .false.        
 SU_FORMAT                       = .true. 
        
