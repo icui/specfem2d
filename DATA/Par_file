@@ -113,7 +113,7 @@ add_Bielak_conditions_top       = .false.
 add_Bielak_conditions_left      = .false.
 
 # acoustic forcing
-ACOUSTIC_FORCING                = .true.        # acoustic forcing of an acoustic medium with a rigid interface
+ACOUSTIC_FORCING                = .false.        # acoustic forcing of an acoustic medium with a rigid interface
 
 
 #-----------------------------------------------------------------------------
