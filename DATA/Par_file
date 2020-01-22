@@ -37,7 +37,7 @@ time_stepping_scheme            = 1
 AXISYM                          = .false.
 
 # set the type of calculation (P-SV or SH/membrane waves)
-P_SV                            = .true.
+P_SV                            = .false.
 
 # set to true to use GPUs
 GPU_MODE                        = .true.
