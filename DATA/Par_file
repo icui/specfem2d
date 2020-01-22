@@ -56,7 +56,7 @@ setup_with_binary_database      = 0
 #   external      - define model using define_external_model subroutine
 #   gll           - read GLL model from binary database file
 #   legacy        - read model from model_velocity.dat_input
-MODEL                           = default
+MODEL                           = gll
 
 # Output the model with the requested type, does not save if turn to default or .false.
 # (available output formats: ascii,binary,gll,legacy)
@@ -113,7 +113,7 @@ add_Bielak_conditions_top       = .false.
 add_Bielak_conditions_left      = .false.
 
 # acoustic forcing
-ACOUSTIC_FORCING                = .true.        # acoustic forcing of an acoustic medium with a rigid interface
+ACOUSTIC_FORCING                = .false.        # acoustic forcing of an acoustic medium with a rigid interface
 
 
 #-----------------------------------------------------------------------------
