@@ -130,7 +130,7 @@ ROTATE_PML_ACTIVATE             = .false.
 ROTATE_PML_ANGLE                = 30.
 PML_PARAMETER_ADJUSTMENT        = .false.
 
-STACEY_ABSORBING_CONDITIONS     = .true.
+STACEY_ABSORBING_CONDITIONS     = .false.
 
 ADD_PERIODIC_CONDITIONS         = .false.
 PERIODIC_HORIZ_DIST             = 0.3597d0
