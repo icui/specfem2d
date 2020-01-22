@@ -138,7 +138,7 @@ PERIODIC_HORIZ_DIST             = 0.3597d0
 
 
 
-GPU_MODE                        = .false.
+GPU_MODE                        = .true.
 
 setup_with_binary_database = 0
 
