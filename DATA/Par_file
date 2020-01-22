@@ -124,7 +124,7 @@ TOMOGRAPHY_FILE                 = none
 read_external_mesh              = .false.
 
 
-PML_BOUNDARY_CONDITIONS         = .false.
+PML_BOUNDARY_CONDITIONS         = .true.
 NELEM_PML_THICKNESS             = 3
 ROTATE_PML_ACTIVATE             = .false.
 ROTATE_PML_ANGLE                = 30.
