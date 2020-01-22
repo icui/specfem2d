@@ -40,7 +40,7 @@ AXISYM                          = .false.
 P_SV                            = .true.
 
 # set to true to use GPUs
-GPU_MODE                        = .false.
+GPU_MODE                        = .true.
 
 # creates/reads a binary database that allows to skip all time consuming setup steps in initialization
 # 0 = does not read/create database
