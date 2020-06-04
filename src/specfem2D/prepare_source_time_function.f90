@@ -417,6 +417,10 @@
             else
               ! First derivative of a Gaussian source time function
               source_time_function(i_source,it,i_stage) = factor(i_source) * sin(omega_coa*t_used)
+
+              if (t_used < 1.d0) then
+                source_time_function(i_source,it,i_stage) = source_time_function(i_source,it,i_stage) * 0.5 * (2 - cos(PI * t_used))
+              endif
             endif
 
           case (11)
