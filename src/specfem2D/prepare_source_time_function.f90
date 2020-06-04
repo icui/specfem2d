@@ -421,6 +421,10 @@
               if (t_used < 1.d0) then
                 source_time_function(i_source,it,i_stage) = source_time_function(i_source,it,i_stage) * 0.5 * (1 - cos(PI * t_used))
               endif
+
+              if (t_used < 0.d0) then
+                source_time_function(i_source,it,i_stage) = 0.d0
+              endif
             endif
 
           case (11)
